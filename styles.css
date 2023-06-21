@@ -90,34 +90,38 @@ main {
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 4px;
 }
 
 #services {
-  padding: 1rem 0;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2px;
 }
 
-#services h2 {
-  margin-bottom: 1rem;
+#promise {
+  text-align: center;
+  font-weight: bold;
 }
 
 .service {
-  width: 50%;
-  display: inline-block;
-  padding: 0 1rem;
+  width: 270px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   text-align: center;
-  vertical-align: top;
-  margin-bottom: 2rem;
-  position: static;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
 .service img {
   width: 100%;
-  max-width: 250px;
-  object-fit: cover;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   border-radius: 50%;
+  height: auto;
+  
 }
 
 footer {
